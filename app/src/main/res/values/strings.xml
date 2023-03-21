@@ -6,4 +6,7 @@
     <string name="status_task_doing">Fazendo</string>
     <string name="status_task_done">Feitos</string>
     <string name="tasks_status">Tasks Status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_task">Add task</string>
 </resources>
