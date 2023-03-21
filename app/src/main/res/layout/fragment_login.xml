@@ -41,7 +41,7 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/edt_height"
             android:layout_marginTop="@dimen/margin_small"
             android:background="@drawable/bg_edit_text"
             android:hint="Digite o sua senha"
@@ -60,7 +60,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
             android:orientation="horizontal">
 
             <TextView
