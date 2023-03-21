@@ -14,4 +14,9 @@
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/blue_200</item>
     </style>
+
+    <style name="CustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

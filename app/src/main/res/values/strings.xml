@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Tasks App</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_logout">Button logout</string>
+
+    <string name="status_task_todo">A Fazer</string>
+    <string name="status_task_doing">Fazendo</string>
+    <string name="status_task_done">Feitos</string>
+    <string name="tasks_status">Tasks Status</string>
 </resources>
