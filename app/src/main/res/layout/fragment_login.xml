@@ -24,12 +24,13 @@
             android:textColor="@color/white" />
 
         <EditText
+            android:id="@+id/edt_email"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edt_height"
             android:layout_marginTop="@dimen/margin_small"
             android:background="@drawable/bg_edit_text"
             android:hint="Digite o seu e-mail"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:padding="@dimen/padding_large" />
 
         <TextView
@@ -40,6 +41,7 @@
             android:textColor="@color/white" />
 
         <EditText
+            android:id="@+id/edt_password"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edt_height"
             android:layout_marginTop="@dimen/margin_small"

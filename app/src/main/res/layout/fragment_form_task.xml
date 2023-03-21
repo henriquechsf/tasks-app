@@ -85,6 +85,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:buttonTint="@color/white"
+                    android:checked="true"
                     android:text="@string/status_task_todo"
                     android:textColor="@color/white" />
 
