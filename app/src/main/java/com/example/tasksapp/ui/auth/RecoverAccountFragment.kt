@@ -6,8 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.tasksapp.R
 import com.example.tasksapp.databinding.FragmentRecoverAccountBinding
 import com.example.tasksapp.util.initToolbar
+import com.example.tasksapp.util.showBottomSheet
 
 class RecoverAccountFragment : Fragment() {
 
@@ -41,7 +43,7 @@ class RecoverAccountFragment : Fragment() {
         if (email.isNotEmpty()) {
             Toast.makeText(requireContext(), "OK tudo certo!", Toast.LENGTH_SHORT).show()
         } else {
-            Toast.makeText(requireContext(), "Preencha seu e-mail", Toast.LENGTH_SHORT).show()
+            showBottomSheet(message = R.string.email_empty)
         }
     }
 

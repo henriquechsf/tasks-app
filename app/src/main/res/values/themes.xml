@@ -14,9 +14,24 @@
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/blue_200</item>
     </style>
+    
+    <style name="EditTextTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">@dimen/edt_height</item>
+    </style>
 
     <style name="CustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
     </style>
 </resources>
